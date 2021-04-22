@@ -1,0 +1,32 @@
+
+
+.label {
+  display: inline-block;
+  margin-right: 10px;
+}
+.input {
+  width: 60%;
+  height: 25px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  @media (max-width: 930px) {
+    display: block;
+    margin-top: 5px;
+    width: 100%;
+  }
+}
+.button {
+  margin-top: 20px;
+  margin-left: 5rem;
+  padding: 10px 10px;
+  width: 100px;
+  border: none;
+  background-color: #3d3b3b;
+  color: #fefefe;
+  font-weight: 400;
+}
+.title{
+  text-align: center;
+  font-size: 1.6em;
+}
